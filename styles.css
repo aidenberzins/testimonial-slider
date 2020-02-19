@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  --blue: #01385e;
+}
+body {
+  padding: -0px;
+  margin: -0px;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("https://www.loopbackanalytics.com/wp-content/uploads/2019/04/bg-header-geo.jpg")
+      center/ cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-slider {
+  max-width: 40%;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.pic {
+  padding: 5px;
+  background-color: var(--blue);
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -60px;
+  display: block;
+}
+
+.author {
+  border-bottom: 3px solid var(--blue);
+  display: inline-block;
+}
